@@ -3,7 +3,7 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 
 ' 👉 Define the Wi-Fi network name and Notepad file name
 Dim wifiName
-wifiName = "reachkmenglaor"
+wifiName = "urwifi"
 Dim notepadFileName
 notepadFileName = "\OpenFile\apple.txt"
 
@@ -21,7 +21,7 @@ x.SendKeys "{ENTER}"
 WScript.Sleep(400)
 
 ' 👉 Run the "netsh" command to show profiles and copy to clipboard
-x.SendKeys "netsh wlan show profiles name=reachkmenglaor key=clear"
+x.SendKeys "netsh wlan show profiles name=urwifi key=clear"
 WScript.Sleep(400)
 x.SendKeys "{ENTER}"
 WScript.Sleep(450)
@@ -65,4 +65,5 @@ WScript.Sleep(100)
 
 ' 👉 Close Notepad (Alt+F4)
 x.SendKeys "%{F4}"
+
 WScript.Sleep(100)
