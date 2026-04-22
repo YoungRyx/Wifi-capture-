@@ -7,3 +7,6 @@ Automatically grab WiFi info from any computer in milliseconds
 
 ---> change this : > wifiName = "urwifi" 
         to your wifi name.
+
+#HOW TO USE 
+run this on the device that already connected to the wifi before
