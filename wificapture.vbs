@@ -5,7 +5,7 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 Dim wifiName
 wifiName = "urwifi"
 Dim notepadFileName
-notepadFileName = "\OpenFile\apple.txt"
+notepadFileName = "\wificapture\apple.txt"
 
 ' 👉 Create the object for sending keys
 Set x = CreateObject("WScript.Shell")
